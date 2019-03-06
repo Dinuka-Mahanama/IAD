@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.creedtech.project.iad.iadproject.deploy_P1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Help is on its way!!"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Until Help Arrives Please Fill in The Following Details"
+            android:textColor="@color/place_autocomplete_search_text" />
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Which Vehicle     "
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText
+                android:id="@+id/Vehicle_NU_Help"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawablePadding="5dp"
+                android:ems="10"
+                android:hint="Enter Number"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#FFF"
+                android:textColorHint="#999"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Were You Driving"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"/>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Mark If yes"
+                android:layout_marginLeft="10dp"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <EditText
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:textSize="20dp"
+            android:inputType="textShortMessage"
+            android:hint="A Small description of how the\n accident occurred"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="OR"
+            android:textColor="@color/cast_expanded_controller_background_color"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_gravity="center"
+            android:id="@+id/ViewDroneLocationOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:clickable="true"
+            android:elevation="2dp"
+            android:onClick="buttonclickpageone"
+            android:text="Proceed to View Drone Location"
+            android:textSize="18dp"
+            android:background="@drawable/mybutton"/>
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

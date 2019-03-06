@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string-array name="spinner1list">
+            <item>Very Good</item>
+            <item>Good</item>
+            <item>Fair</item>
+            <item>Poor</item>
+        </string-array>
+
+        <string-array name="spinner2list">
+            <item>Very Good</item>
+            <item>Good</item>
+            <item>Fair</item>
+            <item>Poor</item>
+        </string-array>
+
+        <string-array name="spinner3">
+            <item>Fitted</item>
+            <item>Not Fitted</item>
+        </string-array>
+</resources>

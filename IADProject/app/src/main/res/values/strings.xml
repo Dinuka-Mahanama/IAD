@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Project IAD</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Intro1">               IAD which stands for insurance agent drone is a novel idea which can revolutionize the field of insurance and alleviate the problems in the current implemented methods. In the field of insurance human personals are used as insurance agents who attend personally to that certain specific place when a certain accident or a property damaged incurred. And they will carry out the analysis process of the damage incurred based on some predefined criteria. Then the agent personnel will fill out the motor vehicle inspection report. Another task of the personnel is to get a statement from the witnesses and take photographs of the damage incurred. So by using this project our target is to make this process autonomous by using the drone technology.</string>
+
+    <string name="Intro2"> So our objective is to make this process autonomous by using a drone with ability to self guide to a particular location from a deployment station and carry out the review process of the damaged vehicle. And after analyzing, the gathered data will be fed into a system that would be capable of giving a report for the client and insurance agency.
+</string>
+    <string name="Benefits">•	The Accident location can be reached very fast the air travel distance is short and no traffic to oppose
+•	Customer has the ability to notify the client of his exact location therefore finding him won’t be an issue
+•	Client will be notified the exact location of the agent drone and the ETA
+•	Can carry out the review process faster
+•	Can take images and video clips
+•	Generate a more accurate estimation
+•	The review process will be carried out faster once the 3D model is taken.
+
+</string>
+    <string name="title_activity_deploy_map"> Maps</string>
+    <string name="BackDropBottomSheetBehavior">com.creedtech.project.iad.lib.BackdropBottomSheetBehavior</string>
+    <string name="BottomSheetBehaviorGoogleMapsLike">com.creedtech.project.iad.lib.BottomSheetBehaviorGoogleMapsLike</string>
+    <string name="ScrollAwareFABBehavior">com.creedtech.project.iad.lib.ScrollAwareFABBehavior</string>
+    <string name="MergedAppBarLayoutBehavior">com.creedtech.project.iad.lib.MergedAppBarLayoutBehavior</string>
+    <string name="ScrollingAppBarLayoutBehavior">com.creedtech.project.iad.lib.ScrollingAppBarLayoutBehavior</string>
+    <string name="napp_name">CustomBottomSheetBehavior</string>
+    <string name="naction_settings">Settings</string>
+
+    <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
+
+    <string name="dummy_text">Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."</string>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    android:id="@+id/coordinatorlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".DeployMap">
+
+    <FrameLayout
+        android:id="@+id/dummy_framelayout_replacing_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/darker_gray"
+        android:fitsSystemWindows="true">
+
+        <fragment
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.example.dinuka.deploymap.DeployMap" />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/setCurrentLoca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:onClick="UpdateLocation"
+            android:text="Show Current Progress"
+            android:background="@drawable/mybutton"/>
+
+
+
+           <LinearLayout
+               android:id="@+id/traveldetails"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+               android:layout_marginBottom="50dp"
+               android:layout_gravity="bottom"
+               android:background="@color/cardview_light_background">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:layout_width="126dp"
+                   android:layout_height="wrap_content"
+                   android:layout_marginRight="20dp"
+                   android:layout_weight="1"
+                   android:text="Total Distance -"
+                   android:textAlignment="textStart"
+                   android:textColor="@color/cast_expanded_controller_background_color"
+                   android:textSize="20dp"
+                   android:layout_margin="10dp" />
+
+               <TextView
+                   android:id="@+id/mapdistance"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:textAlignment="textEnd"
+                   android:textColor="@color/cast_expanded_controller_background_color"
+                   android:textSize="20dp"
+                   android:layout_margin="10dp"/>
+           </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    android:text="Time Remaining -"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"/>
+
+                <TextView
+                    android:id="@+id/maptime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/cast_expanded_controller_background_color"
+                    android:textSize="20dp"
+                    android:layout_margin="10dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </FrameLayout>
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,126 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.creedtech.project.iad.iadproject.Payments">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <RelativeLayout
+        android:layout_width="370dp"
+        android:layout_height="493dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="57dp"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/switch3"
+            android:layout_below="@+id/switch3"
+            android:layout_marginTop="22dp"
+            android:contentDescription="Turn this onto"
+            android:fontFamily="sans-serif"
+            android:text="Update the drone location real time"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/switch2"
+            android:layout_below="@+id/switch2"
+            android:layout_marginTop="15dp"
+            android:contentDescription="Turn this onto"
+            android:fontFamily="sans-serif"
+            android:text="Show the closest deployment stations on the map"
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/toggleButton"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="14dp"
+            android:contentDescription="Turn this onto"
+            android:fontFamily="sans-serif"
+            android:text="Turn on the device location                "
+            android:textAlignment="viewStart"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignStart="@+id/switch1"
+            android:layout_below="@+id/switch1"
+            android:layout_marginTop="15dp"
+            android:text="Call Volume in app"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/textView3"
+            android:layout_alignStart="@+id/textView3"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:ems="10"
+            android:inputType="textMultiLine"
+            android:layout_below="@+id/seekBar"
+            android:layout_alignStart="@+id/seekBar"
+            android:layout_alignParentEnd="true" />
+
+        <RatingBar
+            android:id="@+id/ratingBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/editText2"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText2"
+            android:layout_centerVertical="true"
+            android:text="Rate your experience and we value your comment"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ratingBar2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@color/colorAccent"
+            android:text="Submit"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#303f9d</color>
+    <color name="colorPrimaryDark">#303f9e</color>
+    <color name="colorAccent">#c340ff</color>
+    <color name="ProgressLoader">#18d9ce</color>
+</resources>

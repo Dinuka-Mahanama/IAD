@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.creedtech.project.iad.iadproject.Client">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Customer Details"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="FirstName"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="LastName"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/contactno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Contactno"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Age"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/NIC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="NIC"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/DriveID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Driver License ID"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+        <EditText
+            android:id="@+id/occupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@drawable/account"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Ocupation"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="0dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="#999" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/selector_xml_btn_yellow"
+            android:text="Proceed" />
+
+
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
